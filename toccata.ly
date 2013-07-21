@@ -21,6 +21,7 @@ triSol = \relative c'\times 2/3 { gis''8( e) e}
 
 \score {
   \new Staff \with {midiInstrument = #"acoustic grand"} {
+    \transposition c
     \key c \major
     \time 4/4
 
@@ -62,6 +63,8 @@ triSol = \relative c'\times 2/3 { gis''8( e) e}
 
       { a1 e1 | e1 a2. a4 }
     >>
+    \bar "|."
   }
   \midi {}
+  \layout {}
 }
