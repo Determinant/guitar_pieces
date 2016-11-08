@@ -110,6 +110,25 @@
                 gis-1 <fis!-3\3> e!-1 dis-3 cis-1 <b-4\4> ais-3
                 gis-1 <fis!-4\5> e!-2 dis-1 <cis-4\6> b-4 ais-3 gis-1
             }
+            \key fis \major
+            \repeat volta 1 {
+                <fis-2\6>^"F# major" gis-4 <ais-1\5> b-2 cis-4 <dis-1\4> eis-3
+                fis-4 <gis-1\3> ais-3 b-1 cis-3 <dis-1\2> eis-3
+                fis-4 <gis-1\1> ais-3 b-1 cis-3 dis-1 eis-3
+                fis-4 eis-3 dis-1 cis-4 b-2 ais-1 <gis-4\2>
+                fis-2 eis-1 <dis-3\3> cis-1 <b-4\4> ais-3 gis-1
+                <fis-4\5> eis-3 dis-1 cis-4 b-2 ais-1 <gis-4\6> fis-2
+            }
+            \repeat volta 1 {
+                <dis'-1\5>^"d# minor" eis-3 fis-4 <gis-1\4> ais-3 bis-1 cisis-3
+                dis-4 <eis-1\3> fis-2 gis-4 <ais-2\2> bis-4 <cisis-1\1>
+                dis-2 cis!-4 b!-2 ais-1 <gis-4\2> fis-2 eis-1
+                <dis-3\3> cis!-1 <b!-4\4> ais-3 gis-1 <fis-4\5> eis-3 dis-1
+            }
+            \key des \major
+            \repeat volta 1 {
+                des
+            }
         }
     }
     \midi {}
