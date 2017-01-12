@@ -27,7 +27,7 @@
                 a-1 b-3 c-4 <d-1\1> e-3 fis-1 gis-3
                 a-4 g!-2 f!-4 e-3 d-1 <c-4\2> b-3
                 a-1 <g!-3\3> f!-1 e-3 d-1 <c-4\4> b-3
-                a-1 <g!-4\5> f!-2 e-1 <d-1\6> c-4 b-3 a-1
+                a-1 <g!-4\5> f!-2 e-1 <d-4\6> c-4 b-3 a-1
             }
             \key g \major
             \repeat volta 1 {
@@ -95,8 +95,8 @@
             }
             \key b \major
             \repeat volta 1 {
-                <b-2\6>^"B major" cis-4 <dis-1\5> e-2 fis-4 <gis-1\5> ais-3
-                b-4 <cis-1\3> dis-3 e-1 fis-3 <gis-1\3> ais-3
+                <b-2\6>^"B major" cis-4 <dis-1\5> e-2 fis-4 <gis-1\4> ais-3
+                b-4 <cis-1\3> dis-3 e-1 fis-3 <gis-1\2> ais-3
                 b-4 <cis-1\1> dis-3 e-1 fis-3 gis-1 ais-3
                 b-4 ais-3 gis-1 fis-4 e-2 dis-1 <cis-4\2>
                 b-2 ais-1 <gis-3\3> fis-1 <e-4\4> dis-3 cis-1
@@ -129,7 +129,7 @@
             \repeat volta 1 {
                 <des-2\5>^\markup{D\super\flat major} ees-4 <f-1\4> ges-2 aes-4 <bes-1\3> c-3
                 des-1 ees-3 <f-1\2> ges-2 aes-4 <bes-1\1> c-3
-                des-4 c-3 bes-1 <aes-2\4> ges-2 f-1 <ees-3\3>
+                des-4 c-3 bes-1 <aes-4\2> ges-2 f-1 <ees-3\3>
                 des-1 c-3 bes-1 <aes-4\4> ges-2 f-1 <ees-4\5> des-2
             }
             \repeat volta 1 {
@@ -194,7 +194,7 @@
                 f-2 g-4 <a-1\1> bes-2 c-4 d-1 e-3
                 f-4 e-3 d-1 c-4 bes-2 a-1 <g-4\2>
                 f-2 e-1 <d-3\3> c-1 <bes-4\4> a-3 g-1
-                <f-4\5> e-3 d-1 c-1 bes-1 a-0 <g-0\6> f-1
+                <f-4\5> e-3 d-1 c-3 bes-1 a-0 <g-3\6> f-1
             }
             \repeat volta 1 {
                 <d'-1\5>^\markup{d minor} e-3 f-4 <g-1\4> a-3 b-1 cis-3
