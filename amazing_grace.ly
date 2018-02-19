@@ -7,6 +7,7 @@
 \score {
   \new StaffGroup <<
     \new Staff \with {midiInstrument = #"acoustic grand"} {
+      \tempo "Moderato"
       \transposition c % for the classical guitar, c = c'
       \key g \major
       \time 3/4
